@@ -1,0 +1,206 @@
+
+body{
+    font-family:"Montserrat";
+    /* font-weight: 500; */
+    text-align: center;
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:"Montserrat";
+}
+
+/* Headings */
+.big-heading{
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
+
+.section-heading{
+    font-size: 3rem;
+   font-weight: 500;
+    line-height:1.5 ;
+
+}
+
+
+/* Containers */
+.container-fluid{
+    padding:7% 15%; 
+  
+}
+
+/* Section colors */
+.colored-section{
+    background-color: #ff4c68;
+    color:#fff;
+
+
+}
+
+.white-section{
+    background-color: #fff;
+    
+}
+
+
+/* Title section */
+/* Navigation Bar */
+.navbar{
+    padding: 0 0 4.5rem;
+   
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+.nav-item{
+    padding:0 18px ;
+    color:#fff;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+    font-weight: 200;
+    font-family: "Montserrat";
+}
+
+/* Title  */
+/* Apply css to a general class but for a specific section or component  */
+/* Change the padding top(3%) of container-fluid class in titile section only  */
+#title .container-fluid{
+    padding:1% 15% 7%; 
+    text-align: left;
+   
+}
+
+.title-image{
+    width:20%;
+    transform: rotate(25deg);
+    position:absolute;
+    right:22%;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+
+/* Feature section */
+#features{
+    position:relative;
+    background-color: #fff;
+}
+
+
+.fa-icon{
+    color:#ef8172;
+    margin-bottom:1rem;
+}
+
+.fa-icon:hover{
+    color:#ff4c68;
+
+}
+
+.feature-title{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+
+.feature-para{
+    color:#8f8f8f
+}
+
+.feature-box{
+    padding:5%;
+}
+
+
+
+/* testimonials section */
+.testimonial-text{
+    font-size: 3rem;
+    font-weight: 500;
+     line-height:1.5 ;
+
+}
+
+
+
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin:20px;
+}
+
+
+/* press section */
+#press{
+    padding-bottom:3%;
+}
+
+.press-logo{
+    width:15%;
+    margin:20px 20px 50px;
+}
+
+
+
+/* Pricing section */
+#pricing{
+    padding:100px;  
+}
+.card-title{
+    font-weight: 500;
+    font-size: 1.5rem;
+
+}
+
+.pricing-column{
+    padding:3% 2%;
+}
+
+.price-text{
+    font-size: 3rem;
+    font-weight: 500;
+     line-height:1.5 ;
+
+}
+
+/* <!-- Call to Action --> */
+.cta-heading{
+    font-size: 3.5rem;
+    font-family: "Montserrat";
+    font-weight: 900;
+    line-height:1.5 ;
+
+}
+
+/* footer */
+.footer-icon{
+    margin: 5% 3% 5% 0;
+}
+
+
+/* Media Query */
+@media (max-width: 1000px){
+    .title-image{
+        position:static;
+        transform:rotate(0);
+    }
+
+    #title{
+        text-align: center;
+    }
+
+}
+
+
+
+
